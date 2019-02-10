@@ -9,7 +9,7 @@ action "Shell Lint" {
 }
 
 action "Docker Lint" {
-  uses = "docker://replicated/dockerfilelint"
+  uses = "docker://replicated/dockerfilelint@sha256:45951c9f51720b6fcc13258197c3fe74ef782dbe9a9021bccd4a4b8e52728945"
   args = ["Dockerfile"]
 }
 
